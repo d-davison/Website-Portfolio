@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
       <div class="col-12 col-md-6 col-lg-4 item">
-      <a href="page-game-jostl.html">
+      <a href="jostl.html">
           <div class="card featured">
               <h4>JOSTL.</h4>
               <p style="color:#757575">A 3rd Screen Sports for Android and iOS</p>
