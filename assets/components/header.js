@@ -40,6 +40,12 @@ class Header extends HTMLElement {
                   </li>
               </ul>
 
+                <ul class="navbar-nav icons">
+                  <li class="nav-item social">
+                      <a href="https://github.com/d-davison" class="nav-link"><i class="icon-social-github"></i></a>
+                  </li>
+              </ul>
+
               <!-- Navbar Toggle -->
               <ul class="navbar-nav toggle">
                   <li class="nav-item">

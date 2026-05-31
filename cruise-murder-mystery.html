@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
   <head>
@@ -17,10 +17,7 @@
       name="description"
       content="Dan Davison is a software engineer with a focus on front-end development, specializing in creating engaging and interactive user experiences."
     />
-    <meta
-      name="subject"
-      content="Dan Davison - Night Crew"
-    />
+    <meta name="subject" content="Dan Davison - Night Crew" />
     <meta name="author" content="Codings" />
 
     <!-- ==============================================
@@ -97,7 +94,7 @@
       <div class="swiper-container no-slider slider-h-50">
         <div class="swiper-wrapper">
           <!-- Item 1 -->
-          <div class="swiper-slide slide-center" style="position: relative;">
+          <div class="swiper-slide slide-center" style="position: relative">
             <img
               src="assets/images/motos/bg-motos2.png"
               class="full-image"
@@ -105,7 +102,21 @@
             />
 
             <div class="slide-content row text-center">
-              <img src="assets/images/motos/logo.png" alt="Cruise Liner AR Mystery logo" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:60vw;max-width:440px;height:auto;z-index:3;pointer-events:none;" />
+              <img
+                src="assets/images/motos/logo.png"
+                alt="Cruise Liner AR Mystery logo"
+                style="
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  width: 60vw;
+                  max-width: 440px;
+                  height: auto;
+                  z-index: 3;
+                  pointer-events: none;
+                "
+              />
             </div>
           </div>
         </div>
@@ -121,45 +132,138 @@
             <div class="row">
               <div class="col-12 align-self-center">
                 <h2 class="featured mt-0 ml-0">Overview</h2>
-                <div class="row justify-content-left" style="margin:2px 0 8px;gap:8px;">
+                <div
+                  class="row justify-content-left"
+                  style="margin: 2px 0 8px; gap: 8px"
+                >
                   <div class="col-auto p-0">
-                    <span class="project-tag" style="display:inline-flex;align-items:center;background:#e0e0e0;border-radius:14px;padding:6px 10px;font-size:0.8rem;color:#333;">
-                      <img src="assets/images/icons/unity64.png" alt="Unity" style="height:20px;width:20px;margin-right:8px;object-fit:contain;"/>
+                    <span
+                      class="project-tag"
+                      style="
+                        display: inline-flex;
+                        align-items: center;
+                        background: #e0e0e0;
+                        border-radius: 14px;
+                        padding: 6px 10px;
+                        font-size: 0.8rem;
+                        color: #333;
+                      "
+                    >
+                      <img
+                        src="assets/images/icons/unity64.png"
+                        alt="Unity"
+                        style="
+                          height: 20px;
+                          width: 20px;
+                          margin-right: 8px;
+                          object-fit: contain;
+                        "
+                      />
                       Unity
                     </span>
                   </div>
                   <div class="col-auto p-0">
-                    <span class="project-tag" style="display:inline-flex;align-items:center;background:#e0e0e0;border-radius:14px;padding:6px 10px;font-size:0.8rem;color:#333;">
-                      <img src="assets/images/icons/vr64.png" alt="Augmented Reality" style="height:20px;width:20px;margin-right:8px;object-fit:contain;"/>
+                    <span
+                      class="project-tag"
+                      style="
+                        display: inline-flex;
+                        align-items: center;
+                        background: #e0e0e0;
+                        border-radius: 14px;
+                        padding: 6px 10px;
+                        font-size: 0.8rem;
+                        color: #333;
+                      "
+                    >
+                      <img
+                        src="assets/images/icons/vr64.png"
+                        alt="Augmented Reality"
+                        style="
+                          height: 20px;
+                          width: 20px;
+                          margin-right: 8px;
+                          object-fit: contain;
+                        "
+                      />
                       Augmented Reality
                     </span>
                   </div>
                   <div class="col-auto p-0">
-                    <span class="project-tag" style="display:inline-flex;align-items:center;background:#e0e0e0;border-radius:14px;padding:6px 10px;font-size:0.8rem;color:#333;">
-                      <img src="assets/images/icons/web64.png" alt="Web" style="height:20px;width:20px;margin-right:8px;object-fit:contain;"/>
+                    <span
+                      class="project-tag"
+                      style="
+                        display: inline-flex;
+                        align-items: center;
+                        background: #e0e0e0;
+                        border-radius: 14px;
+                        padding: 6px 10px;
+                        font-size: 0.8rem;
+                        color: #333;
+                      "
+                    >
+                      <img
+                        src="assets/images/icons/web64.png"
+                        alt="Web"
+                        style="
+                          height: 20px;
+                          width: 20px;
+                          margin-right: 8px;
+                          object-fit: contain;
+                        "
+                      />
                       WebGL
                     </span>
                   </div>
                 </div>
+                <p>
+                  This Unity WebGL project was developed as part of an on-ship
+                  entertainment experience for a major cruise liner. The client
+                  wanted to evolve their existing web-based mystery game into a
+                  more immersive, interactive format, something that could be
+                  hosted locally on the ship and engage passengers in a playful,
+                  investigative AR experience.
+                  <br /><br />
+                  The redesigned game placed players at a virtual desk using
+                  augmented reality, where they could explore evidence packets
+                  with three degrees of freedom: picking up cassette tapes,
+                  inserting them into a player, and reading through booklets. I
+                  built a fully interactive cassette player system, allowing
+                  users to drag tapes into the player and operate buttons to
+                  play, rewind, or fast-forward audio.
+                </p>
 
-                <div class="container" style="padding-top: 50px">
+                <!-- Gameplay Mechanics -->
+                <h2 class="featured mt-0 ml-0">Gameplay Mechanics</h2>
+                <p>
+                  In order for the user to interact with the elements on the
+                  desk, I implemented a custom interaction system using
+                  raycasting from the camera to detect when the user was looking
+                  at an interactive object. When the user looked at an object,
+                  we initially had it so the hovered objects would recieve an
+                  outline effect to show that it is being hovered, but we had to
+                  do away with this as it proved to be too costly for mobile
+                  devices. Instead, we implemented 2D and 3D UI elements that
+                  would fade in when the user hovered over an object, showing
+                  the name of the object and any relevant interaction prompts.
+                  This system was used for all interactive objects on the desk,
+                  including cassette tapes, the cassette player buttons, books,
+                  and documents.
+                  <br /><br />
+                </p>
+
+                <!-- Gameplay Screenshots -->
+                <div class="container">
                   <div class="row">
-                    <div class="col-lg-9" style="display: flex">
-                      <div style="display: grid; align-items: center">
-                        <p>
-                          <b></b>
-                          <br />
-                          This Unity WebGL project was developed as part of an on-ship entertainment experience for a major cruise liner. The client wanted to evolve their existing web-based mystery game into a more immersive, interactive format, something that could be hosted locally on the ship and engage passengers in a playful, investigative AR experience.
-                          <br /><br />
-                          The redesigned game placed players at a virtual desk using augmented reality, where they could explore evidence packets with three degrees of freedom: picking up cassette tapes, inserting them into a player, and reading through booklets. I built a fully interactive cassette player system, allowing users to drag tapes into the player and operate buttons to play, rewind, or fast-forward audio.
-                          <br /><br />
-                          To optimize performance for mobile devices, I implemented a lightweight JSON-based solution to display accurate audio visualizations (transcribed waveform bars) without needing to process audio clips in real time. Playback controls were synced with these visualizations, ensuring smooth and responsive interaction.
-                          <br /><br />
-                          We also integrated with the ship’s internal APIs using GET requests to fetch contextual data like the current day of the cruise, and POST requests to submit player answers to a local leaderboard, all while handling cookie-based user tracking.
-                          <br /><br />
-                          One of the final puzzle mechanics involved a real-world QR code hidden at the ship’s cocktail bar. I developed a scanner using a picture recognition plugin, enabling players to unlock the last piece of evidence by physically exploring the ship.
-                
-                        </p>
+                    <div class="col-lg-3">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                        "
+                      >
+                        <img src="assets/images/motos/motos-1.png" />
                       </div>
                     </div>
                     <div class="col-lg-3">
@@ -171,102 +275,150 @@
                           height: 100%;
                         "
                       >
-                        <div
-                          id="carouselSocialFeed"
-                          class="carousel slide"
-                          data-ride="carousel2"
-                        >
-                          <ol class="carousel-indicators">
-                            <li
-                              data-target="#carouselMOTOS"
-                              data-slide-to="0"
-                              class="active"
-                            ></li>
-                            <li
-                              data-target="#carouselMOTOS"
-                              data-slide-to="1"
-                            ></li>
-                            <li
-                            data-target="#carouselMOTOS"
-                            data-slide-to="2"
-                          ></li>
-                            <li
-                            data-target="#carouselMOTOS"
-                            data-slide-to="3"
-                          ></li>
-                            <li
-                            data-target="#carouselMOTOS"
-                            data-slide-to="4"
-                          ></li>
-                          </ol>
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img
-                                class="d-block w-100"
-                                src="assets/images/motos/motos-1.png"
-                                alt="Main Menu"
-                              />
-                            </div>
-                            <div class="carousel-item">
-                              <img
-                                class="d-block w-100"
-                                src="assets/images/motos/motos-4.png"
-                                alt="Cassette Player"
-                              />
-                            </div>
-                            <div class="carousel-item">
-                              <img
-                                class="d-block w-100"
-                                src="assets/images/motos/motos-5.png"
-                                alt="Book"
-                              />
-                            </div>
-                              <div class="carousel-item">
-                              <img
-                                class="d-block w-100"
-                                src="assets/images/motos/motos-6.png"
-                                alt="Documents"
-                              />
-                            </div>
-                              <div class="carousel-item">
-                              <img
-                                class="d-block w-100"
-                                src="assets/images/motos/motos-7.png"
-                                alt="Document"
-                              />
-                            </div>
-                          </div>
-                          <a
-                            class="carousel-control-prev"
-                            href="#carouselSocialFeed"
-                            role="button"
-                            data-slide="prev"
-                          >
-                            <span
-                              class="carousel-control-prev-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a
-                            class="carousel-control-next"
-                            href="#carouselSocialFeed"
-                            role="button"
-                            data-slide="next"
-                          >
-                            <span
-                              class="carousel-control-next-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                          
-                        </div>
+                        <img src="assets/images/motos/motos-4.png" />
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                        "
+                      >
+                        <img src="assets/images/motos/motos-5.png" />
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                        "
+                      >
+                        <img src="assets/images/motos/motos-6.png" />
                       </div>
                     </div>
                   </div>
                 </div>
 
+                <br /><br />
+
+                <!-- Waveform Audio Visualization -->
+                <h2 class="featured mt-0 ml-0">Waveform Audio Visualization</h2>
+                <p>
+                  As part of the visuals for the cassette player, the client
+                  wanted a waveform displa to visualise the audio. In Unity, we
+                  could just read the audio as we played it, and turn these
+                  values into a range of float values that I could then apply to
+                  an image in a diegetic UI canvas. This worked well apart from
+                  it had two issues, reading audio every frame can prove to be
+                  very costly, and that WebGL did not natively support the audio
+                  processing features we needed to read the audio in real time.
+                  <br /><br />
+                  To solve these issues, I implemented a lightweight scriptable
+                  object solution to display accurate audio visualizations
+                  (transcribed waveform bars) without needing to process audio
+                  clips in real time. To do this, I created tools that would
+                  play an audio track in a test scene, listen to the audio data,
+                  and add spectrum data to a scriptable object that then would
+                  be saved to the project. Then at runtime, instead of
+                  transcribing the audio, I could read the data straight from
+                  the scriptable object.
+                  <br /><br />
+                  The playback controls were synced with these visualizations,
+                  ensuring smooth and responsive interaction. This approach not
+                  only optimized performance for WebGL but also provided a
+                  visually engaging experience that enhanced the overall
+                  immersion of the game.
+                </p>
+
+                <!-- Waveform Audio Visualization Images -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                        "
+                      ></div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                        "
+                      >
+                        <img src="assets/images/motos/motos-waveformso.png" />
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                        "
+                      >
+                        <img src="assets/images/motos/motos-waveform.gif" />
+                      </div>
+                    </div>
+                    <div class="col-lg-1">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                        "
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <br /><br />
+
+                <!-- Web APIs -->
+                <h2 class="featured mt-0 ml-0">Web APIs</h2>
+                <p>
+                  As part of the game, we needed to progress the player through
+                  the story depending on what day of the cruise the user
+                  currently is on. For this we would request the ships API on
+                  the ship's internal network to get the current day, and then
+                  use this information to load in the correct version of the
+                  table.
+                  <br /><br />
+                  We also needed to submit player answers to a local leaderboard
+                  with a POST request. Previously in the user's experience, the
+                  user would input their username and a unique id would be
+                  generated and saved to the web page's cookies. In order to
+                  update the correct user when submitting answers, we would read
+                  the cookie data to get the unique id, and then include this in
+                  the POST request to the ship's API to update the correct user
+                  on the leaderboard.
+                </p>
+
+                <!-- QR Code Scanner -->
+                <h2 class="featured mt-0 ml-0">QR Code Scanner</h2>
+                <p>
+                  One of the final puzzle mechanics involved a real-world QR
+                  code hidden at the ship's cocktail bar. I developed a scanner
+                  using a picture recognition plugin, that would scan the user's
+                  picture data and output a code from any detected barcode or QR
+                  code. Afterwards we would check the code against the expected
+                  value and then set the corresponding flag. After returning to
+                  the table, users will discover the last piece of evidence on
+                  their desk.
+                </p>
               </div>
             </div>
           </main>
