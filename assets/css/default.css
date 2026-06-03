@@ -209,4 +209,27 @@ footer .dark-button {
     animation: effect 1s linear infinite;
 }
 
+/* Project box tech-stack pills (rendered by <project-grid>) */
+.project-tags {
+    margin: 2px 0 8px;
+    gap: 8px;
+}
+
+.project-tag {
+    display: inline-flex;
+    align-items: center;
+    background: #e0e0e0;
+    border-radius: 14px;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.project-tag img {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+    object-fit: contain;
+}
+
 /* #endregion Effect */

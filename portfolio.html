@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
@@ -11,7 +11,7 @@
 
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 
-    <title>Dan Davison</title>
+    <title>Dan Davison - Portfolio</title>
 
     <meta
       name="description"
@@ -104,49 +104,30 @@
     <header-component></header-component>
 
     <!-- Hero -->
-    <section id="slider" class="hero p-0">
-      <div class="swiper-container no-slider animation slider-h-50">
+    <section id="slider" class="hero p-0 odd featured">
+      <div class="swiper-container no-slider slider-h-50">
         <div class="swiper-wrapper">
           <!-- Item 1 -->
           <div class="swiper-slide slide-center">
-            <video
+            <img
+              src="assets/images/vr-pain/bg-island-short.jpg"
               class="full-image"
               data-mask="70"
-              playsinline
-              autoplay
-              muted
-              loop
-            >
-              <source
-                src="assets/videos/zestbackground_4.mp4"
-                type="video/mp4"
-              />
-            </video>
+            />
 
-            <div class="slide-content row">
-              <div class="col-12 d-flex inner">
-                <div class="center align-self-center text-center">
-                  <h1
-                    data-aos="zoom-out-up"
-                    data-aos-delay="400"
-                    class="title effect-static-text"
-                  >
-                    DAN DAVISON
-                  </h1>
-                  <a
-                    href="#portfolio"
-                    data-aos="zoom-out-up"
-                    data-aos-delay="800"
-                    class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button"
-                  >
-                    <i class="icon-cup"></i>Check out my work!</a
-                  >
-                </div>
+            <div class="slide-content row text-center">
+              <div class="col-12 mx-auto inner">
+                <h1
+                  data-aos="zoom-out-up"
+                  data-aos-delay="400"
+                  class="title effect-static-text"
+                >
+                  Portfolio
+                </h1>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -157,20 +138,11 @@
           <div
             class="col-12 col-md-9 align-self-center text-center text-md-left"
           >
-            <h2 class="featured">My work</h2>
-            <p>Some of my recent projects.</p>
-          </div>
-          <div class="col-12 col-md-3 align-self-end">
-            <a
-              href="portfolio"
-              class="btn mx-auto mr-md-0 ml-md-auto primary-button"
-            >
-              <i class="icon-grid"></i>View full portfolio</a
-            >
+            <h2 class="featured">Projects</h2>
           </div>
         </div>
 
-        <project-grid limit="3"></project-grid>
+        <project-grid></project-grid>
       </div>
     </section>
 

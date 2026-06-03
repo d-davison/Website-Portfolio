@@ -12,7 +12,7 @@ class Header extends HTMLElement {
           <div class="container header">
 
               <!-- Navbar Brand-->
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" href="/">
                   Dan Davison<i class="leverage-2-0"></i>
                   <!-- 
                       Custom Logo
@@ -26,10 +26,10 @@ class Header extends HTMLElement {
               <!-- Navbar Items -->
               <ul class="navbar-nav items">
               <li class="nav-item">
-                 <a href="page-portfolio.html" class="nav-link">Portfolio<i class="nav-link"></i></a>
+                 <a href="portfolio" class="nav-link">Portfolio<i class="nav-link"></i></a>
               </li>                     
               <li class="nav-item">
-                  <a href="page-about-2.html" class="nav-link">About<i class="nav-link"></i></a>
+                  <a href="about" class="nav-link">About<i class="nav-link"></i></a>
               </li>                 
           </ul>
 
