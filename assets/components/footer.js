@@ -26,13 +26,13 @@ class Footer extends HTMLElement {
                               <p></p>
                               <ul class="navbar-nav social share-list mt-0 ml-auto">
                                   <li class="nav-item">
-                                      <a href="https://www.linkedin.com/in/davisondan/" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                      <a href="https://www.linkedin.com/in/davisondan/" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="icon-social-linkedin"></i></a>
                                   </li>
                               </ul>
 
                               <ul class="navbar-nav social share-list mt-0 ml-auto">
                                   <li class="nav-item">
-                                      <a href="https://github.com/d-davison" class="nav-link"><i class="icon-social-github"></i></a>
+                                      <a href="https://github.com/d-davison" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="icon-social-github"></i></a>
                                   </li>
                               </ul>
                           </div>

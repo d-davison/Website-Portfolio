@@ -232,4 +232,12 @@ footer .dark-button {
     object-fit: contain;
 }
 
+/* Keep the pills readable on card hover: the theme forces every span in a
+   hovered card to near-white, which makes dark pill text vanish on the grey
+   background. This more-specific rule restores the dark text. */
+.card:not(.no-hover):hover .project-tag {
+    color: #333;
+    -webkit-text-fill-color: #333;
+}
+
 /* #endregion Effect */

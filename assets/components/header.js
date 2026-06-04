@@ -36,13 +36,13 @@ class Header extends HTMLElement {
               <!-- Navbar Icons -->
               <ul class="navbar-nav icons">
                   <li class="nav-item social">
-                      <a href="https://www.linkedin.com/in/davisondan/" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/in/davisondan/" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="icon-social-linkedin"></i></a>
                   </li>
               </ul>
 
                 <ul class="navbar-nav icons">
                   <li class="nav-item social">
-                      <a href="https://github.com/d-davison" class="nav-link"><i class="icon-social-github"></i></a>
+                      <a href="https://github.com/d-davison" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="icon-social-github"></i></a>
                   </li>
               </ul>
 
