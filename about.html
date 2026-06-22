@@ -62,6 +62,43 @@
 
       --footer-bg-color: #191919;
     }
+
+    /* ===== About page custom styling ===== */
+    .about-intro { align-items: center; }
+    .about-intro .about-photo img {
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.20);
+    }
+
+    .xp-card {
+      background: #1a1a1a;
+      border-left: 4px solid var(--primary-color, #C095FF);
+      border-radius: 10px;
+      padding: 26px 30px;
+      margin-bottom: 22px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+    }
+    .xp-card h4 { margin-top: 0; margin-bottom: 0; }
+    .xp-card .xp-meta {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      opacity: 0.6;
+      margin-top: 5px;
+    }
+    .xp-card ul { margin-bottom: 0; }
+    .xp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+    .xp-tag {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 4px 12px;
+      font-size: 0.78rem;
+      color: #dddddd;
+    }
+    .xp-tag img { height: 16px; width: 16px; margin-right: 6px; object-fit: contain; }
   </style>
 </head>
 
@@ -92,13 +129,23 @@
   <!-- Content -->
   <section id="content" class="section-1 single">
     <div class="container">
-      <div class="row">
-        <div class="col-12 align-self-center">
+      <div class="row about-intro" data-aos="fade-up">
+        <div class="col-12 col-md-5 about-photo mb-4 mb-md-0">
+          <img src="assets/images/about/about-me.png" alt="Dan Davison" />
+        </div>
+        <div class="col-12 col-md-7 align-self-center pl-md-5">
           <h2 class="featured mt-0 ml-0">Summary</h2>
           <p>Unity and Unreal Engine developer with 5+ years' experience shipping games and interactive apps across mobile,
             PC and console. Comfortable across UI systems, gameplay programming, multiplayer networking, AR/VR and tooling,
             with a track record of owning features end-to-end on small teams.
           </p>
+          <a href="assets/Dan-Davison-CV.pdf" target="_blank" rel="noopener" class="btn primary-button mt-3">
+            <i class="icon-cloud-download"></i>Download my CV</a>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:56px;" data-aos="fade-up">
+        <div class="col-12">
           <h2 class="featured">Technical Skills</h2>
           <ul>
             <li><strong>Engines:</strong> Unity (UI Toolkit, UGUI, Addressables, Remote Config), Unreal Engine (UMG, Blueprints)</li>
@@ -109,8 +156,6 @@
             <li><strong>Tooling:</strong> Custom Unity editor tooling and workflow tools</li>
             <li><strong>Workflow:</strong> Git, Plastic, Perforce, Agile/Scrum, sprint planning, code review</li>
           </ul>
-          <a href="assets/Dan-Davison-CV.pdf" target="_blank" rel="noopener" class="btn primary-button mt-3">
-            <i class="icon-cloud-download"></i>Download my CV</a>
         </div>
       </div>
 
@@ -129,10 +174,10 @@
           <b3 class="text-max-800">My professional experience.</b3>
         </div>
       </div>
-      <div class="col-12 align-self-center">
-        <h4 class="text-max-800" style="color: white">
+      <div class="xp-card" data-aos="fade-up">
+        <h4 style="color: white;">
           Game Programmer, Binary Spiders, Remote
-          <span style="display:block; font-size:0.8em; font-weight:400; opacity:0.65;">Jan 2025 &ndash; Present</span>
+          <span class="xp-meta">Jan 2025 &ndash; Present</span>
         </h4>
         <ul>
           <li>
@@ -151,13 +196,19 @@
             integrating gameplay systems, accessibility features and localisation across PC and console.
           </li>
         </ul>
+        <div class="xp-tags">
+          <span class="xp-tag"><img src="assets/images/icons/unity64.png" alt="" />Unity</span>
+          <span class="xp-tag"><img src="assets/images/icons/unreal-engine64.png" alt="" />Unreal Engine</span>
+          <span class="xp-tag"><img src="assets/images/icons/xbox64.png" alt="" />Xbox</span>
+          <span class="xp-tag">Nintendo Switch</span>
+          <span class="xp-tag"><img src="assets/images/icons/apple64.png" alt="" />iOS</span>
+          <span class="xp-tag"><img src="assets/images/icons/android64.png" alt="" />Android</span>
+        </div>
       </div>
-      <br />
-      <br />
-      <div class="col-12 align-self-center">
-        <h4 class="text-max-800" style="color: white">
+      <div class="xp-card" data-aos="fade-up">
+        <h4 style="color: white;">
           Unity UI Developer, JOSTL., London
-          <span style="display:block; font-size:0.8em; font-weight:400; opacity:0.65;">Feb 2022 &ndash; Jan 2025</span>
+          <span class="xp-meta">Feb 2022 &ndash; Jan 2025</span>
         </h4>
         <ul>
           <li>
@@ -175,13 +226,16 @@
             Mentored colleagues on their use of new software such as GitHub and Unity.
           </li>
         </ul>
+        <div class="xp-tags">
+          <span class="xp-tag"><img src="assets/images/icons/unity64.png" alt="" />Unity</span>
+          <span class="xp-tag">C#</span>
+          <span class="xp-tag">UI/UX systems</span>
+        </div>
       </div>
-      <br />
-      <br />
-      <div class="col-12 align-self-center">
-        <h4 class="text-max-800" style="color: white">
+      <div class="xp-card" data-aos="fade-up">
+        <h4 style="color: white;">
           Unity Game Developer, Cosmico, London
-          <span style="display:block; font-size:0.8em; font-weight:400; opacity:0.65;">Sept 2021 &ndash; Feb 2022</span>
+          <span class="xp-meta">Sept 2021 &ndash; Feb 2022</span>
         </h4>
         <ul>
           <li>
@@ -197,13 +251,16 @@
             Created educational mini-games to evaluate and improve children’s skills In Maths, English and Science.
           </li>
         </ul>
+        <div class="xp-tags">
+          <span class="xp-tag"><img src="assets/images/icons/unity64.png" alt="" />Unity</span>
+          <span class="xp-tag"><img src="assets/images/icons/apple64.png" alt="" />iOS</span>
+          <span class="xp-tag"><img src="assets/images/icons/android64.png" alt="" />Android</span>
+        </div>
       </div>
-      <br />
-      <br />
-      <div class="col-12 align-self-center">
-        <h4 class="text-max-800" style="color: white">
+      <div class="xp-card" data-aos="fade-up">
+        <h4 style="color: white;">
           XR Developer, Altran Italia SpA, Milan
-          <span style="display:block; font-size:0.8em; font-weight:400; opacity:0.65;">Jul 2019 &ndash; Dec 2019</span>
+          <span class="xp-meta">Jul 2019 &ndash; Dec 2019</span>
         </h4>
         <ul>
           <li>
@@ -215,6 +272,11 @@
             client feedback.
           </li>
         </ul>
+        <div class="xp-tags">
+          <span class="xp-tag"><img src="assets/images/icons/unity64.png" alt="" />Unity</span>
+          <span class="xp-tag"><img src="assets/images/icons/vr64.png" alt="" />ARCore</span>
+          <span class="xp-tag"><img src="assets/images/icons/vr64.png" alt="" />AR / VR</span>
+        </div>
       </div>
     </div>
   </section>
